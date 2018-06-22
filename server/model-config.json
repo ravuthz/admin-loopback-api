@@ -38,5 +38,9 @@
   "Container": {
     "dataSource": "local-storage",
     "public": true
+  },
+  "Post": {
+    "dataSource": "db",
+    "public": true
   }
 }

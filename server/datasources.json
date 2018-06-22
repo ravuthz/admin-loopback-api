@@ -1,22 +1,22 @@
 {
-  "db": {
-    "name": "db",
+  "memory": {
+    "name": "memory",
     "connector": "memory"
+  },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "admin-react",
+    "password": "",
+    "name": "mongodb",
+    "user": "",
+    "connector": "mongodb"
   },
   "local-storage": {
     "name": "local-storage",
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./server/local-storage"
-  },
-  "mongoDS": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "",
-    "password": "",
-    "name": "mongoDS",
-    "user": "",
-    "connector": "mongodb"
   }
 }
