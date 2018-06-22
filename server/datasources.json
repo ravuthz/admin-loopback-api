@@ -8,5 +8,15 @@
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./server/local-storage"
+  },
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "connector": "mongodb"
   }
 }
