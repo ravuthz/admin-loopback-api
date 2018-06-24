@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "db": {
-    "host": "localhost",
-    "port": 27017,
+    "host": "ds163870.mlab.com",
+    "port": 63870,
     "url": "",
-    "database": "admin-react",
-    "password": "",
+    "database": "admin-loopback-api",
+    "password": "R#vuth2",
     "name": "mongodb",
-    "user": "",
+    "user": "ravuthz",
     "connector": "mongodb"
   },
   "local-storage": {
