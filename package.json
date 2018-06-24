@@ -1,10 +1,9 @@
 {
-  "name": "admin-loopback",
+  "name": "admin-loopback-api",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": "10.4.0",
-    "yarn": "1.5.1"
+    "node": "10.4.0"
   },
   "scripts": {
     "lint": "eslint .",
@@ -21,17 +20,18 @@
     "loopback-component-storage": "^3.4.0",
     "loopback-connector-mongodb": "^1.18.1",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^2.0.0"
+    "strong-error-handler": "^2.0.0",
+    "yarn": "^1.7.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
-    "nsp": "^2.1.0"
+    "nsp": "^3.2.1"
   },
   "repository": {
     "type": "",
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "admin-loopback"
+  "description": "admin-loopback-api"
 }
